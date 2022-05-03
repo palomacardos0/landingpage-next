@@ -1,0 +1,154 @@
+.banner {
+  // display: block;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.banner2 {
+  // display: block;
+  width: 100%;
+  min-height: 414px;
+  max-height: 520px;
+  object-fit: cover;
+}
+
+.sectionOne {
+  display: flex;
+  align-items: center;
+  max-width: 1205px;
+  margin: 80px auto;
+  padding: 0 30px;
+  gap: 124px;
+
+  img {
+    max-width: 315px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+  }
+}
+
+.sectionTwo {
+  width: 100%;
+  height: 100%;
+  background-color: var(--grey50);
+  // padding: 73px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 73px 30px;
+
+}
+
+
+.cards {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--white);
+  padding: 25px;
+  box-shadow: 0 0 0.7em 1px #0000003e;
+
+  img {
+    padding-bottom: 27px;
+  }
+}
+
+.sectionThree {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to top, var(--blue550), var(--blue500), var(--blue500) 80%, var(--white) 80%);
+  padding-bottom: 128px;
+
+  >div {
+
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    // margin-top: 80px;
+    margin: 80px 30px 0;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+.sectionFour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 142px 30px 179px;
+
+  gap: 40px;
+
+  img {
+    max-width: 396px;
+  }
+
+  div {
+    max-width: 550px;
+  }
+}
+
+@media (max-width:768px) {
+
+  .sectionOne {
+    flex-direction: column;
+    margin: 77px auto 158px;
+    gap: 67px;
+
+    img {
+      max-width: 239px;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .sectionFour {
+    flex-direction: column;
+    margin: 80px 0 135px;
+
+    img {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    div {
+      padding: 0 33px;
+
+      h2 {
+        display: block;
+        margin-bottom: 18px;
+      }
+    }
+  }
+
+  .sectionCards {
+    margin: 37px 30px 27px;
+  }
+}
