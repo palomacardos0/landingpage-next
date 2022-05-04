@@ -9,10 +9,10 @@ export function Footer() {
           <img src="images/insta.svg" alt="instagram icon" />
         </a>
         <a href="https://www.facebook.com/" target="_blank" className={styles.iconSocialMedia} rel="noreferrer">
-          <img src="assets/facebook.svg" alt="facebook icon" />
+          <img src="images/facebook.svg" alt="facebook icon" />
         </a>
         <a href="https://www.youtube.com/" target="_blank" className={styles.iconSocialMedia} rel="noreferrer">
-          <img src="assets/youtube.svg" alt="youtube icon" />
+          <img src="images/youtube.svg" alt="youtube icon" />
         </a>
       </div>
       <div>
